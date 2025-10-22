@@ -18,7 +18,7 @@ const PORT = process.env.PORT || 3001;
 app.use(cors({
   origin: process.env.NODE_ENV === 'production' 
     ? [
-        'https://startup-ideas-app.onrender.com', // Оновиш на свій URL після деплою
+        'https://startup-ideas-app-drenders.onrender.com',
         process.env.FRONTEND_URL
       ].filter(Boolean)
     : ['http://localhost:5173'],
